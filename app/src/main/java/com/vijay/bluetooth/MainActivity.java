@@ -30,7 +30,6 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
     private static final String TAG = "MainActivity";
-
     BluetoothAdapter mBluetoothAdapter;
     Button btnEnableDisable_Discoverable;
     public ArrayList<BluetoothDevice> mBTDevices = new ArrayList<>();
